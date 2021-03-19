@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box {
+    text-align: center;
+}
+
+h1 {
+    user-select: none;
+    color: #4141f0;
+    font-size: 150px;
+}
+
+#count {
+    user-select: none;
+    color: #26c026;
+    font-size: 120px;
+    margin: -110px 0px 20px 0px;
+}
+
+#saved {
+    background-color: blue;
+    border-bottom: 5px solid #ebebeb;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    font-size: 50px;
+}
+
+.buttons {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px 20px 5px 20px;
+    font-size: 35px;
+    margin: 0px 10px 0px 10px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background-color: #e4e4e4;
+}
