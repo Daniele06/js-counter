@@ -1,6 +1,6 @@
 var number = 0;
 
-// decrease number and turn count red
+// Decrease number and turn count red
 document.getElementById("decrease").onclick = function() {
     number--;
     document.getElementById("count").innerHTML = number;
